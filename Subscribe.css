@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, button {
+	font-family:  'Cormorant Garamond', serif;
+}
+
+h1.subscribe-title {
+	position: absolute;
+	top: 110px;
+	left: 40%;
+	font-size: 30px;
+}
+
+button {
+	border: none;
+    background-color: #c6529e;
+    color: white;
+    padding-top: 9px;
+    padding-right: 180px;
+	padding-left: 180px;
+    padding-bottom: 9px;
+    text-align: center;
+    text-decoration: none;
+	margin-left: 10%;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 1px;    
+    border-radius: 30px;
+	box-shadow: 1px 2px #82386C;
+}
+
+button:hover {
+	background-color: White;
+	color: #c6529e;
+	border: 2px Solid #c6529e;
+	box-shadow: none;
+}
+
+div.subscribe-form {
+	position: absolute;
+	top: 200px;
+	left: 25%;
+}
+
+input.input-text {
+	width: 700px; 
+	height: 50px; 
+	font-size: 22px;
+	background-color: #F1F2F2;
+	border: 0.04em Solid #5553A3;
+}
+
+input.input-textarea {
+	width: 700px; 
+	height: 150px; 
+	font-size: 22px;
+	background-color: #F1F2F2;
+	border: 0.04em Solid #5553A3;
+}
+
+div.form {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div.background {
+	background-image: url("../images/search/Search screen.png");
+	width: 100%;
+	height: 800px;
+}
+
+img.search-logo{
+	 width: 1000px; 
+	 height: 470px;
+	 margin-left: 50px;
+	 margin-top: 50px;
+}
+
+img.close {
+	height: 32px;
+	width: 32px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+}

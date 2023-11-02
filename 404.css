@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, button {
+	font-family:  'Cormorant Garamond', serif;
+}
+
+h1.title {
+	margin-top: 0px;
+	margin-left: 38%;
+	font-size: 30px;
+}
+
+button {
+	border: none;
+    background-color: #963D97;
+    color: white;
+    padding-top: 9px;
+    padding-right: 180px;
+	padding-left: 180px;
+    padding-bottom: 9px;
+    text-align: center;
+    text-decoration: none;
+	margin-top: 10px;
+	margin-left: 28%;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 1px;    
+    border-radius: 30px;
+	box-shadow: 1px 2px #82386C;
+}
+
+button:hover {
+	background-color: White;
+	color: #c6529e;
+	border: 2px Solid #c6529e;
+	box-shadow: none;
+}
+
+img.not-found {
+	margin-left: 15%;
+	margin-top: 120px;
+	width: 1000px; 
+	height: 508px;
+}

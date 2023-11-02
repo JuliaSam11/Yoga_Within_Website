@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 20px;
+	position: absolute;
+	top: 0;
+}
+
+div, section, span, ul, li, a, header {
+	box-sizing: border-box;
+}
+
+img.logo{
+	max-width: 300px;
+	height: auto;
+}
+
+#menu li {
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+	font-size: 33px;
+    font-weight: 50px;
+	color: #a090c2;
+}
+
+#menu li a {
+	color: #5452A3;
+	text-decoration: none;
+    font-style: normal;
+}
+
+a:hover {
+	border: 2px solid #5452A3;
+	border-radius: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+a:hover#Home, a:hover#team {
+	border: none;
+	border-radius: none;
+	padding-right: 0px;
+	padding-left: 0px;
+}

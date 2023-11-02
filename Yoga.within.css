@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, button {
+	font-family:  'Cormorant Garamond', serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+section {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+img.landing-page{
+	width: 100%;
+	height: auto;
+}
+
+img.arrow-down {
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	left: 50%;
+	top: 650px;
+}
+
+img.arrow-down-team {
+	width: 48px;
+	height: 48px;
+	margin-left: 48%;
+}
+
+img.about-us {
+	width: 180px; 
+	height: 90px;
+	margin-top: 50px;
+	margin-left: 43%;	
+}
+
+.body_and_soul {
+    color: #5452A3;
+	opacity: 0.9;
+    font-size: 38px;
+	text-align: center;
+    top: 200px;
+    left: 300px;
+    position: absolute;
+}
+
+.journey {
+    color: #a090c2;
+    font-size: 22px;
+	text-align: center;
+    top: 420px;
+    left: 230px;
+	line-height: 1.5;
+    position: absolute;
+}
+
+.div_button {
+	left: 130px;
+	margin-top: 30px;
+}
+
+button {
+	border: none;
+    background-color: #c6529e;
+    color: white;
+    padding-top: 9px;
+    padding-right: 45px;
+	padding-left: 45px;
+    padding-bottom: 9px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 1px;    
+    border-radius: 30px;
+	box-shadow: 1px 2px #82386C;
+}
+
+button:hover {
+	background-color: White;
+	color: #c6529e;
+	border: 2px Solid #c6529e;
+	box-shadow: none;
+}
+
+div.about{
+	margin-top: 50px;
+	text-align: center;
+}
+
+div.discover {
+	margin-left: 300px;	
+	margin-top: 50px;
+}
+
+div.discover-text {
+	width: 15%; 
+	float: left;
+	font-size: 22px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+h2.about {
+	margin-bottom: 30px;
+	font-size: 38px;
+}
+
+h2.header, h3.header, div.header {
+	margin-top: 40px;
+}
+
+.margin-top {
+	margin-top: 20px;	
+}
+
+.margin-bottom {
+	margin-bottom: 20px;	
+}
+
+div.about-text {
+	font-size: 22px;
+	text-align: center;
+}
+
+div.about-img {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+span.group-classes-text {
+	float: left; 
+	width: 24%; 
+	margin-left: 300px;
+}
+
+span.group-classes-img {
+	float: right; 
+	width: 30%; 
+	margin-right: 350px;
+}
+
+span.offer-img {
+	float: left; 
+	width: 36%; 
+	margin-left: 250px; 
+	margin-top: 40px;
+}
+
+span.offer-text {
+	float: right; 
+	width: 30%; 
+	margin-right: 200px;
+}
